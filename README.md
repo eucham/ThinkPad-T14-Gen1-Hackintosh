@@ -26,8 +26,21 @@
 
 - 进 BIOS：开机 -> `Enter` -> `F1`
 - 进系统选择：开机 -> `Enter` -> `F12`
+-  Load Default Config
+-  Config
+    -   CPU
+        -   Intel Hyper-Threading Technology - `ON`
+-  Security
+    -   Virtualization
+        -   Kernel DMA Protection - `OFF`
+        -   Intel Virtualization Technology - `ON`
+        -   Intel VT-d Feature - `OFF`
+    -   Secure Boot
+        -   Secure Boot - `OFF`
+    -   Intel SGX
+        -   Intel SGX Control - `DISABLED`
 
-> 能设置的，尽量都设置上。
+或者参考下列设置，能设置的，尽量都设置上。
 
 ### 禁用清单
 
