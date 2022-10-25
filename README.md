@@ -30,14 +30,21 @@
 -  Config
     -   CPU
         -   Intel Hyper-Threading Technology - `ON`
+    -   Thunderbolt 3
+        -   Security Level - `NO SECURITY`
+        -   Thunderbolt device  - `DISABLED`
 -  Security
-    -   Virtualization
+    -  Security Chip
+        -  Security Chip - `OFF`
+    -  I/O Port Access
+        -  Wireless WAN - `OFF`
+    -  Virtualization
         -   Kernel DMA Protection - `OFF`
         -   Intel Virtualization Technology - `ON`
         -   Intel VT-d Feature - `OFF`
-    -   Secure Boot
+    -  Secure Boot
         -   Secure Boot - `OFF`
-    -   Intel SGX
+    -  Intel SGX
         -   Intel SGX Control - `DISABLED`
 
 或者参考下列设置，能设置的，尽量都设置上。
